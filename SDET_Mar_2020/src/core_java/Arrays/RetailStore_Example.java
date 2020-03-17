@@ -1,4 +1,4 @@
-package core_java;
+package core_java.Arrays;
 
 public class RetailStore_Example {
 

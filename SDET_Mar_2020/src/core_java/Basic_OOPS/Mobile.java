@@ -1,4 +1,4 @@
-package core_java;
+package core_java.Basic_OOPS;
 
 public class Mobile extends Product  //Mobile is a Product
 {
@@ -32,15 +32,15 @@ public class Mobile extends Product  //Mobile is a Product
 
 	//same method as in parent but different set of attributes
 	//same name, different parameters : METHOD OVERLOADING
-	void setProductDetails(int pid,int price,String name, String brand, String os,int ram)
-	{
-		this.pid = pid;
-		this.price = price;
-		this.name = name;
-		this.brand = brand;
-		this.os = os;
-		this.ram = ram;
-	}
+		public void setProductDetails(int pid,int price, String name,String brand,String os, int ram) //input parameters
+		{
+			this.pid = pid; //this is a keyword which points to this object
+			this.price = price; //LHS will also belong to the object, RHS will belong to the method
+			this.name = name;
+			this.brand = brand; //this is a keyword which points to this object
+			this.os = os; //LHS will also belong to the object, RHS will belong to the method
+			this.ram = ram;
+		}
 	
 	//same method, same set of parameters
 	//METHOD OVERRIDING
