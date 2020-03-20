@@ -13,7 +13,9 @@ public class DisplayPrimeNos {
 		int high = scan.nextInt();
 		
 		scan.close();
-		
+		if(low>=high) {
+			 System.out.println("Input not as expected");
+			 }
 		while (low < high) 
 		{
 		            boolean flag = false;
@@ -30,8 +32,7 @@ public class DisplayPrimeNos {
 		            low++;
 		  }
 		
-		if(low>=high)
-		 System.out.println("Input not as expected");
+		
 	}
 	}
 
