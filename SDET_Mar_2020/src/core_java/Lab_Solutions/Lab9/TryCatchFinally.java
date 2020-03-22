@@ -1,4 +1,4 @@
-package core_java.Exceptions;
+package core_java.Lab_Solutions.Lab9;
 
 public class TryCatchFinally {
 	
